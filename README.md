@@ -52,6 +52,7 @@ Esta aplicación móvil fue desarrollada como parte de una tarea académica. Est
 
 ### 7. Noticias desde WordPress
 
+- Usa la API: [`TED blog`](https://blog.ted.com/wp-json/wp/v2/posts)
 - Muestra el **logo** de un sitio hecho con WordPress.
 - Utiliza la API de WordPress REST.
 - Muestra los **titulares y resúmenes** de las 3 últimas publicaciones.
