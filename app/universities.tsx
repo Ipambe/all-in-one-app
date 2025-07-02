@@ -24,7 +24,7 @@ export default function Universities() {
     setLoading(true)
     try {
       const response = await fetch(
-        `http://universities.hipolabs.com/search?country=${encodeURIComponent(country.trim())}`
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(`http://universities.hipolabs.com/search?country=${encodeURIComponent(country.trim())}`)}`
       )
       const data = await response.json()
 
