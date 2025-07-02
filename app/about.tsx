@@ -8,9 +8,7 @@ export default function About() {
         <View className='items-center rounded-lg border border-gray-200 bg-white p-6'>
           <View className='mb-4 size-52 items-center justify-center rounded-full border-2 border-blue-500 p-1'>
             <Image
-              source={{
-                uri: 'https://media.discordapp.net/attachments/1084938229662355558/1387643065434378323/1750910277541.jpg?ex=6865570f&is=6864058f&hm=93aabd3ffb20c17d4299cc9ce68f9c53e7934562d8e4155259f5c58c6f8fe11e&=&format=webp&width=828&height=828'
-              }}
+              source={require('../assets/icons/icon.png')}
               className='h-full w-full rounded-full'
             />
           </View>
